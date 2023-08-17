@@ -1,7 +1,9 @@
 Web Technologies
 ================
-As usual, ask questions, get into a breakout room, help each other
-Remember there is a quiz, but probably one of your team will major on the UI
+As usual, ask questions, work together in breakout rooms, help each other
+Remember there is a 'knowledge check' quiz
+The quiz is 21 questions, multiple choice (as always)
+Probably one of your team will major on the UI
 
 - HTML, CSS and JavaScript
 - Angular does loads of stuff for you
@@ -16,48 +18,47 @@ Web Technologies are evolving fast
 Good to know the underlying HTML, CSS and ES 
 but easier to use Angular (or React etc)
 
-The quiz is 21 questions, multiple choice (as always)
 Project will probably only need a SPA front-end, calling your back-end
 
 HTML CSS and JavaScript/ES
 --------------------------
->>>> nb for 'emet' need to update VSC on VMs
+>>>> nb for 'emet' need to update VSCode
 
 HTML for content
-- open a folder in VSC
+- open a folder in VSCode
 - make index.html
-- !tab to auto-complete content of a web page (a few handy shortcuts in VSCode)
+- Type ! then press tab to auto-complete content of a web page
 - nested elements with attributes for content
-- semantic tags, inc footer with &copy;
+- semantic tags
+- footer with &copy;
 - images, links, aria
 - form, list, table, button
-- data, chart
+- data, charts
 - simple creational exercise
 
 CSS for presentation style
 - attach style sheet to index.html
-- Tag, Id and class
+- Tag, Id and class styles
 - color, background-color, border
 - Cascade
 - comma, space and >
-- waaay easier to use e.g. Bootstrap
+- way easier to use e.g. Bootstrap
 
 Media Queries
 - use chrome mobile simulator
-- basics of media Queries
+- basic overview of media Queries
 
 Layout
 - Flexbox intro
 - use Bootstrap
 
 ECMAScript (ES) for functionality
-- Kangax and caniuse
 - only use latest syntax
-- see it downgrade (ts playground)
-- modular
+- see it downgrade in the ts playground
+    https://www.typescriptlang.org/play?#code/
+- modular coding is a good idea
 - make everything const until it can't be
-- let, types. array, object
-- functions (ways to call)
+- let, string, boolean, array, object
 - {} is an object, also a block-scope
 - arrays etc. are zero-based
 - modern way to do fn (looks a bit like Java arrow fn)
@@ -65,16 +66,17 @@ UNLIKE Java:
 - NOT strictly typed let x=1; x='oh'
 - no relation between filename and content
 - let is preferred over var
-- no private etc.
+- no 'private' etc.
 - ECMAScript does have classes, but we'll see them in Angular
+- Typescript is great but we only ned it minimally n Angular (so see later...)
 
 ARIA
 - do not ignore best practice
 
-Fetch from API
+Fetch from API over HTML
 - what REST APIs look like
 - using fetch (get)
-- other verbs: put, update, delete...
+- other http verbs: put, update, delete...
 - handling returned data (JSON)
 - use sample finance REST API
 
