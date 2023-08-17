@@ -1,0 +1,4 @@
+... also do a <app-header> and <app-footer> sample
+using srvices
+angular labs
+comments to emphasize fn eg doesnt work

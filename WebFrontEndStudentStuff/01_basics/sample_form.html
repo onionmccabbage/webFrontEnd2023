@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form and Form Fields</title>
+</head>
+
+<body>
+    <!-- no need for nested tags if they serve no purpose -->
+    <h2>HTML Form</h2>
+    <!-- careful - the default behaviour of <form> is NOT what you want... -->
+    <form>
+        <!-- different browsers handle 'required' in their own way -->
+        <!-- 'required' is known as a 'boolean attribute': it just needs to exist or not exist -->
+        <input placeholder="stock name" minlength="2" required id="stock_name" name="stock_name" />
+        <input type="number" min="0" max="10" placeholder="quantity" id="quantity" name="quantity" />
+        <!-- radio buttons are mutually exclusive if they have the same name -->
+        <input type="radio" id="frequency" name="frequency" value="daily">Daily
+        <input type="radio" id="frequency" name="frequency" value="weekly">Weekly
+        <input type="radio" id="frequency" name="frequency" value="monthly">Monthly
+        <fieldset>
+            <legend>Chart Types</legend>
+            <!-- checkboxes can be selected together -->
+            <input type="checkbox" name="include" id="bar" value="bar" />
+            <!-- labels are great for ARIA -->
+            <label for="bar">
+                Bar
+            </label>
+            <input type="checkbox" name="include" id="pie" value="pie" />
+            <label for="pie">
+                Pie
+            </label>
+            <input type="checkbox" name="include" id="hloc" value="hlosc" />
+            <label for="hloc">
+                HLOC
+            </label>
+        </fieldset>
+        <!-- html has an attribute for 'hidden' -->
+        <input hidden="true" type="range" name="scale" id="scale" />
+        <hr />
+        <!-- html has an attribute for 'disabled' -->
+        <select disabled="'true" id="city" name="city">
+            <option value="MSS">Mississauga</option>
+            <option value="NY" selected>New York</option>
+            <option value="TA">Tampa</option>
+        </select>
+        <br />
+        <!-- textarea still defaults to monospaced text -->
+        <textarea id="comments" name="comments" placeholder="comments"></textarea>
+        <hr />
+        <input type="email" value="email@looks.ok" required /><br />
+        <input type="url" value="https://must.look.like.url" required /><br />
+        <input type="tel" placeholder="US and CANADA pattern" required /><br />
+        <!-- platform and browser will affect appearance of date and colour pickers -->
+        <input type="date" /><br />
+        <input type="color" /><br />
+        <hr />
+        <!-- both these will submit the form -->
+        <input type="submit" value="Go" />
+        <button>Ok</button>
+        <!-- by design the form is submitted to the web server it came from -->
+        <!-- take a look at the URL once the form has been submitted with some values in it -->
+    </form>
+</body>
+
+</html>

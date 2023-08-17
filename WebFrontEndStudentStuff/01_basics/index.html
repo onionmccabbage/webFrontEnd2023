@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Fronnt End</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" /> -->
+    <!-- favicon is used by search engines, bookmarks, browser tab etc. -->
+    <link rel="icon" href="assets/favicon-32x32.png" />
+</head>
+<body>
+    <header>
+        <h1>Web Front End</h1>
+    </header>
+    <nav>
+        <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+        | <a href="https://learn-css.org/">CSS</a>
+        | <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction">ECMAScript</a>
+        | <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA">ARIA</a>
+    </nav>
+    <article>
+        <section id="main">
+            <h2>HTML for Content</h2>
+            <p>HTML treats any whitespace as a single space
+                e.g. new
+
+
+                lines,   tabs, multiple        spaces
+            </p>
+            <h4>Block and Inline</h4>
+            <p>All HTML elements are either<div>block layout</div> or <span>inline layout</span></p>
+            <h3>Close Tags</h3>
+            <p>A handful of HTML elements have no closing tag</p>
+            <!-- consider ARIA for images -->
+            <p>Image (img):<img src="https://placekitten.com/64/64" />
+            Horizontal Rule (hr)
+                <hr/>
+            Soft line break (br)<br/>
+            Form input fields <input/>
+            Link <link /> and Meta <meta />
+            </p>
+            <h3>Attributes</h3>
+            <p>Attributes can modify the behaviour of elements</p>
+            <p title="this is a title attribute">Hover your mouse over this paragraph</p>
+        </section>
+        <section>
+            <h2>CSS for Design</h2>
+            <p>Cascading Style Sheets combine to apply presentational design</p>
+            <ul>
+                <li>Tag styles apply automatically to the specified tag</li>
+                <li>Class styles apply anywhere the css class is manually specified</li>
+                <li>ID style applies only to the tag with that ID</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Three Technologies</h2>
+            <aside>
+                <ul id="unordered_list">
+                    <li>HTML</li>
+                    <span><li>CSS</li></span>
+                    <li>ECMAScript</li>
+                </ul>
+            </aside>
+            <h2>Media Assets</h2>
+            <p>Ensure accessibility for non-text content <img src="https://placebear.com/120/64" alt="a random image of a bear" />
+        </section>
+    </article>
+    <footer>Copyright 2023 read our legal notice</footer>
+</body>
+<!-- script goes after the content so all the HTML exists before we refer to it in code -->
+<script src="index.js"></script>
+</html>

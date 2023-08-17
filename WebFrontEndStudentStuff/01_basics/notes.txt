@@ -1,0 +1,108 @@
+Web Technologies
+================
+As usual, ask questions, get into a breakout room, help each other
+Remember there is a quiz, but probably one of your team will major on the UI
+
+- HTML, CSS and JavaScript
+- Angular does loads of stuff for you
+- Project: use what you like
+
+What you need if using your own machines (already there on VMs):
+- NodeJS https://nodejs.org/en (go for 18.x LTS)
+- An editor such as VS Code
+- we will install Angular together a little later
+
+Web Technologies are evolving fast
+Good to know the underlying HTML, CSS and ES 
+but easier to use Angular (or React etc)
+
+The quiz is 21 questions, multiple choice (as always)
+Project will probably only need a SPA front-end, calling your back-end
+
+HTML CSS and JavaScript/ES
+--------------------------
+>>>> nb for 'emet' need to update VSC on VMs
+
+HTML for content
+- open a folder in VSC
+- make index.html
+- !tab to auto-complete content of a web page (a few handy shortcuts in VSCode)
+- nested elements with attributes for content
+- semantic tags, inc footer with &copy;
+- images, links, aria
+- form, list, table, button
+- data, chart
+- simple creational exercise
+
+CSS for presentation style
+- attach style sheet to index.html
+- Tag, Id and class
+- color, background-color, border
+- Cascade
+- comma, space and >
+- waaay easier to use e.g. Bootstrap
+
+Media Queries
+- use chrome mobile simulator
+- basics of media Queries
+
+Layout
+- Flexbox intro
+- use Bootstrap
+
+ECMAScript (ES) for functionality
+- Kangax and caniuse
+- only use latest syntax
+- see it downgrade (ts playground)
+- modular
+- make everything const until it can't be
+- let, types. array, object
+- functions (ways to call)
+- {} is an object, also a block-scope
+- arrays etc. are zero-based
+- modern way to do fn (looks a bit like Java arrow fn)
+UNLIKE Java:
+- NOT strictly typed let x=1; x='oh'
+- no relation between filename and content
+- let is preferred over var
+- no private etc.
+- ECMAScript does have classes, but we'll see them in Angular
+
+ARIA
+- do not ignore best practice
+
+Fetch from API
+- what REST APIs look like
+- using fetch (get)
+- other verbs: put, update, delete...
+- handling returned data (JSON)
+- use sample finance REST API
+
+Angular
+-------
+- https://angular.io/ and https://angular.io/cli
+- Angular uses NodeJS
+- automates build tool-chain
+- Really simple HTML templating with 'components'
+- Really simple API data access with 'services'
+- Angular setup and first project (always SPA)
+- Architecture and workflow
+- Four types of template binding
+- Using the FormsModule
+- Making and using new components
+- @Input and @Output
+- Routing
+- Services and the HttpClientModule (for API access)
+- Structural Directives: *ngIf *ngFor
+- hiding or removing content
+- Deployment
+
+
+Loading API data
+----------------
+- how to fetch data
+- dynamic display - this is NOT Python/MatPlotLib
+
+Not Covered
+-----------
+- web-based charts

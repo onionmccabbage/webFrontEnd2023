@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 Fetching API Data</title>
+    <link rel="stylesheet" href="lab3.css" />
+</head>
+<body>
+    <article>
+        <section>
+            <form>
+                <input placeholder="Title"
+                    name="title" id="title"
+                    value="Dummy title"
+                    required minlength="1" />
+                <input type="number" min="1" 
+                    name="albumId" id="albumId"
+                    value="42"
+                    placeholder="Album Id"
+                    required />
+                <input placeholder="Url"
+                    value="https://www.placebeard.it/64x64"
+                    name="url" id="url"
+                    type="url" required />
+                    <input placeholder="Thumbnail Url"
+                    name="thumbnailUrl" id="thumbnailUrl"
+                    value="https://www.placebeard.it/32x32"
+                    type="url" required />
+                <button name="btnDone" id="btnDone">Done</button>
+            </form>
+        </section>
+        <hr/>
+        <pre id="monitor"></pre>
+        <hr/>
+        <section>
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Album Id</th>
+                    <th>Url</th>
+                    <th>Thumbnail Url</th>
+                </tr>
+                <tr>
+                    <td>Kitten</td>
+                    <td>1</td>
+                    <td>https://placekitten/64/64</td>
+                    <td>https://placekitten/32/32</td>
+                </tr>
+                <tr>
+                    <td>Bear</td>
+                    <td>1</td>
+                    <td>https://placebear/64/64</td>
+                    <td>https://placebear/32/32</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+</body>
+<!-- remember to add your ECMAScript here -->
+<script src="lab3.js"></script>
+</html>

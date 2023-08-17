@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 Forms and Tables</title>
+    <link rel="stylesheet" href="lab2.css" />
+</head>
+<body>
+    <article>
+        <section>
+            <form>
+                <input placeholder="Title"
+                    name="title" id="title"
+                    required minlength="1" />
+                <input type="number" min="1" 
+                    name="albumId" id="albumId"
+                    placeholder="Album Id"
+                    required />
+                <input placeholder="Url"
+                    name="url" id="url"
+                    type="url" required />
+                <input placeholder="Thumbnail Url"
+                    name="thumbnailUrl" id="thumbnailUrl"
+                    type="url" required />
+                <button name="btnDone" id="btnDone">Done</button>
+            </form>
+        </section>
+        <hr/>
+        <section>
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Album Id</th>
+                    <th>Url</th>
+                    <th>Thumbnail Url</th>
+                </tr>
+                <tr>
+                    <td>Kitten</td>
+                    <td>1</td>
+                    <td>https://placekitten/64/64</td>
+                    <td>https://placekitten/32/32</td>
+                </tr>
+                <tr>
+                    <td>Bear</td>
+                    <td>1</td>
+                    <td>https://placebear/64/64</td>
+                    <td>https://placebear/32/32</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+</body>
+</html>

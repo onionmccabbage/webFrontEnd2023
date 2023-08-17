@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching Data from an API</title>
+    <link rel="stylesheet" href="fetch_data.css"/>
+</head>
+<body>
+    <article>
+        <header>
+            <h2>Fetch Sample Data from an Application Programming Interface (API)</h2>
+        </header>
+        <section>
+            <h3>Which Ticker?</h3>
+            <select name="selectTicker" id="selectTicker">
+                <!-- we always need a 'change' event so provide a dummy option -->
+                <option selected disabled>Choose a ticker</option>
+                <option value="C">City</option>
+                <option value="TSLA">Tesla</option>
+                <option value="AMZN">Amazon</option>
+                <option value="AAPL">Apple</option>
+                <option value="FB">Facebook</option>
+            </select>
+        </section>
+        <!-- use CSS to how only when needed -->
+        <section id="output" class="hide">
+            <!-- nifty way to preview complex data structures -->
+            <pre id="monitor"></pre>
+            <aside>
+                <ul>
+                    <li id="maxVolume"></li>
+                    <li id="maxHigh"></li>
+                    <li id="minLow"></li>
+                    <li id="maxOpen"></li>
+                    <li id="maxClose"></li>
+                </ul>
+            </aside>
+        </section>
+    </article>
+</body>
+<script src="fetch_data.js"></script>
+</html>

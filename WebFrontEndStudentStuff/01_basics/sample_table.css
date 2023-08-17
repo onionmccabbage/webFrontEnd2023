@@ -1,0 +1,10 @@
+/* try borders on just table, just td or just th */
+table, th, td {
+    /* border:1px solid darkred; */
+    border-left:1px solid darkred;
+    border-bottom:1px solid darkred;
+    background-color: honeydew;
+}
+/* remember, styles will cascade... */
+table {background-color: lightgreen;}
+th {width: 33%;}
