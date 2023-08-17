@@ -50,6 +50,9 @@ const fnW = x=>x/2
 const fnX = (x)=>x/2
 const fnY = x=>{return x/2}
 const fnZ = (x, y)=>{return x/y}
+// this next one will not return anything
+const fnOops = (x)=>{x/2} // missing 'return' statement
+
 // call the functions
 console.log(oldSkool())
 console.log(oldSkool(4,3))

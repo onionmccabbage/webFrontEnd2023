@@ -2,22 +2,22 @@
 const stocks = [{
     'code': 'WPO',
     'price': 10,
-    'quantity': 100,
+    'quantity': 100
 },
 {
     'code': 'NYT',
     'price': 20,
-    'quantity': 200,
+    'quantity': 200
 },
 {
     'code': 'MZLA',
     'price': 30,
-    'quantity': 300,
+    'quantity': 300
 },
 {
     'code': 'TIK',
     'price': 40,
-    'quantity': 400,
+    'quantity': 400
 }
 ]
 
