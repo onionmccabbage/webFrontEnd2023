@@ -108,3 +108,12 @@ Loading API data
 Not Covered
 -----------
 - web-based charts
+
+How to use a downloaded Angular project
+---------------------------------------
+- if you download one of the solution Angular projects you will need to install the node_modules
+- go to the top-level of the project and in a terminal type:
+    npm install
+- You will then see all the required dependecies download
+- Run the project by typing:
+    ng serve
