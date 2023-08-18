@@ -23,7 +23,6 @@ const getPhotos = (e)=>{
 // - or add rows to your table (pretty complex to do)
 // - maybe show the actual thumbnail image (use 'title' as alt)?
 
-
 // get a reference to the form <button>
 btnDone = document.getElementById('btnDone')
 

@@ -9,7 +9,7 @@ Probably one of your team will major on the UI
 - Angular does loads of stuff for you
 - Project: use what you like
 
-What you need if using your own machines (already there on VMs):
+What you need if using your own machines (already installed on VMs):
 - NodeJS https://nodejs.org/en (go for 18.x LTS)
 - An editor such as VS Code
 - we will install Angular together a little later
@@ -115,5 +115,5 @@ How to use a downloaded Angular project
 - go to the top-level of the project and in a terminal type:
     npm install
 - You will then see all the required dependecies download
-- Run the project by typing:
+- When they have downloaded you can run the project by typing:
     ng serve
