@@ -51,6 +51,7 @@ Media Queries
 Layout
 - Flexbox intro
 - use Bootstrap
+- design really matters
 
 ECMAScript (ES) for functionality
 - only use latest syntax
