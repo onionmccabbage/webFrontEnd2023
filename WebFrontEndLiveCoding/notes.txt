@@ -26,8 +26,6 @@ Project will probably only need a SPA front-end, calling your back-end
 
 HTML CSS and JavaScript/ES
 --------------------------
->>>> nb for 'emet' need to update VSCode
-
 HTML for content
 - open a folder in VSCode
 - make index.html
