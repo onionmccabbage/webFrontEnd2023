@@ -72,7 +72,7 @@ UNLIKE Java:
 - let is preferred over var
 - no 'private' etc.
 - ECMAScript does have classes, but we'll see them in Angular
-- Typescript is great but we only ned it minimally n Angular (so see later...)
+- Typescript is great but we only need it minimally n Angular (so see later...)
 
 ARIA
 - do not ignore best practice
