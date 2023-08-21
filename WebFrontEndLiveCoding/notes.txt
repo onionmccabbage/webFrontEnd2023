@@ -1,15 +1,19 @@
 Web Technologies
 ================
-As usual, ask questions, work together in breakout rooms, help each other
+As usual
+- ask questions
+- help each other
+- work individually or together on labs in breakout rooms
 Remember there is a 'knowledge check' quiz
-The quiz is 21 questions, multiple choice (as always)
+- The quiz is 21 questions, multiple choice (as always)
 Probably one of your team will major on the UI
 
-- HTML, CSS and JavaScript
+What we will looks at:
+- HTML, CSS and ECMAScript (JavaScript)
 - Angular does loads of stuff for you
 - Project: use what you like
 
-What you need if using your own machines (already installed on VMs):
+If using your own machines you will need:  (already installed on VMs):
 - NodeJS https://nodejs.org/en (go for 18.x LTS)
 - An editor such as VS Code
 - we will install Angular together a little later
@@ -28,6 +32,7 @@ HTML for content
 - open a folder in VSCode
 - make index.html
 - Type ! then press tab to auto-complete content of a web page
+- change the <title>
 - nested elements with attributes for content
 - semantic tags
 - footer with &copy;
