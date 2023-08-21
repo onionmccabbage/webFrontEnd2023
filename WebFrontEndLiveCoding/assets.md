@@ -31,5 +31,5 @@ portfolio = [
     {'ticker':'TSLA', 'qty':50, 'price':500}
   ]
 
-### API end-point to use in typicode.service.ts (in 'use-api-proj')
+### API end-point to use in typicode.service.ts (in Angular 'use-api-proj' )
 https://jsonplaceholder.typicode.com
