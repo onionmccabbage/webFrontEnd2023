@@ -1,0 +1,8 @@
+table, th, td {
+    border: 1px solid darkred;
+    background-color: honeydew;
+}
+
+th {
+    width: 33%;
+}
