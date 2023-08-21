@@ -62,6 +62,8 @@ console.log(fnY(3))
 console.log(fnZ(3, 9))
 // there is a type called NaN
 console.log(fnZ(3, 'oops'))
+// no return statement, we get 'undefined'
+console.log(fnOops(3))
 
 // Methods of classes look like this
 class WibblyWoo {
