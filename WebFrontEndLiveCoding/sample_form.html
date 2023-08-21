@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Form fields</title>
+</head>
+<body>
+    <!-- no need to nested tags if they serve no purpose -->
+    <h2>HTML Form</h2>
+    <form>
+        <input required placeholder="enter your name" /><br/>
+        <input required type="number" /><br/>
+        <!-- for ARIA always <label> annotations -->
+        <label for="daily">Daily</label>
+        <input required type="radio" id="daily" name="freq" value="daily" /><br/>
+        <label for="weekly">Weekly</label>
+        <input required type="radio" id="weekly" name="freq" value="weekly" /><br/>
+        <label for="monthly">Monthly</label>
+        <input required type="radio" id="monthly" name="freq" value="monthly" /><br/>
+
+        <input required type="email" /><br/>
+        <input required type="range" />
+        <!-- both these will submit the form - oh dear.... -->
+        <!-- <input type="submit" value="Go" /> -->
+        <button>Go</button>
+    </form>
+</body>
+</html>

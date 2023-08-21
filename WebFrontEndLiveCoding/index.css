@@ -10,3 +10,10 @@ h1, h2, h3, h4 {
 /* ID styles apply to ONE matching Id tag */
 #wibblywoo {font-family: 'Courier New', Courier, monospace;}
 
+/* combining CSS styles */
+footer {
+    background-color: black; 
+    color: aliceblue;
+   /* NB this will be overiden by the ID style */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
