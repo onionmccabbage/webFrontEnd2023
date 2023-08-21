@@ -1,0 +1,12 @@
+/* tag styles apply automatically to EVEY matching tag */
+header { color: aliceblue; background-color: black;}
+p {background-color: #c0ffee; color: #639;}
+h1, h2, h3, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* class styles must be manually applied */
+.main {border: 2px solid purple;}
+
+/* ID styles apply to ONE matching Id tag */
+#wibblywoo {font-family: 'Courier New', Courier, monospace;}
+
