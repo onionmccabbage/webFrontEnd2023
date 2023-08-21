@@ -54,8 +54,8 @@ const fnZ = (x, y)=>{return x/y}
 const fnOops = (x)=>{x/2} // missing 'return' statement
 
 // call the functions
-console.log(oldSkool())
-console.log(oldSkool(4,3))
+console.log(oldSkool()) // 9
+console.log(oldSkool(4,3)) // 
 console.log(fnW(3))
 console.log(fnX(3))
 console.log(fnY(3))
@@ -93,12 +93,13 @@ five.innerHTML = `Today is ${today}`
 const newElem = document.createElement('img')
 newElem.setAttribute('src', 'https://placekitten.com/64/64')
 newElem.setAttribute('alt', 'kitten image')
+newElem.setAttribute('title', 'awwwwww')
 five.appendChild(newElem)
 // remove something from the DOM (two ways)
 setTimeout( // handy way to wit for a bit
     ()=>{ // call back
         five.removeChild(newElem)
-    }, 2500 // after this many milliseconds
+    }, 10000 // after this many milliseconds
 )
 // or just replace the entire element content with an empty text string
 // five.innerHTML = ''

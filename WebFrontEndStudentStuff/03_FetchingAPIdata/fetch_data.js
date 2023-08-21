@@ -32,7 +32,7 @@ const handleTickerChange = (event)=>{
     console.log(selectedTicker)
     const url = `${tickerAPI}${selectedTicker}`
     // make an asynchronous call to the API
-    fetch(url)
+    fetch(url) // defautls to 'get'
     .then(response => response.json())
         // asynchronous calls are 'then-able'
         .then((data) => {
