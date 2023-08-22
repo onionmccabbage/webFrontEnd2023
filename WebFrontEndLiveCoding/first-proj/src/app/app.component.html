@@ -1,7 +1,16 @@
+<app-head></app-head>
 <article>
   <h2>Welcome to Angular</h2>
 
-We are on break until 11:15
-
-
+<!-- interpolation binding -->
+  <p>{{title}} wealth: {{wealth |currency:'EUR'}}</p>
+  <p>{{1+2}}</p>
+  <!-- [] binds one way to an attribute -->
+  <img [src]=imgUrl [alt]=a [title]=t />
+  
+  <!-- what if we do "src={{imgUrl}}" -->
+  <button (click)="handleButton()" >Feed the cats</button>
+  <!-- ng generate component my-stocks -->
+  <app-my-stocks></app-my-stocks>
 </article>
+<app-foot></app-foot>
