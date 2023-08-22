@@ -9,5 +9,7 @@
         <option selected disabled>Choose a ticker</option>
         <option *ngFor="let item of portfolio">{{item.ticker}}</option>
     </select>
+    <hr>
+    <app-detail *ngFor="let item of portfolio" [detail]="item"></app-detail>
 </aside>
  

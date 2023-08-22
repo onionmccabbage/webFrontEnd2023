@@ -5,9 +5,9 @@ import { AppComponent } from './app.component';
 import { MyStocksComponent } from './my-stocks/my-stocks.component';
 import { HeadComponent } from './head/head.component';
 import { FootComponent } from './foot/foot.component';
-import { DeleteMeComponent } from './delete-me/delete-me.component';
 import { FormsModule } from '@angular/forms';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +15,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     MyStocksComponent,
     HeadComponent,
     FootComponent,
-    DeleteMeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

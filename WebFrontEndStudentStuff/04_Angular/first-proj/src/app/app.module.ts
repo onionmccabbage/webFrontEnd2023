@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { MyStocksComponent } from './my-stocks/my-stocks.component';
 import { FormsModule } from '@angular/forms';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyStocksComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule, 
