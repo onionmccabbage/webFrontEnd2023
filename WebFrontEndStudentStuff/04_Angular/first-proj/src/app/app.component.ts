@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'first-proj';
   i = 'https://placekitten.com/120/64'
   a = 'random kitten'
+  t = 'picture of a kitten'
   catName = 'Mildred'
   stocks = ['AAPL', 'AMAZN', 'C', 'FB', 'TSLA']
   portfolio = [

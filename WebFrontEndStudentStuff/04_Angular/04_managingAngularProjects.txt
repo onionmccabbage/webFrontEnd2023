@@ -10,7 +10,7 @@ You will then have a folder called my-stocks containing:
 - The component is decorated with @Component
 - The component class will be called' MyStocksComponent'
 - There is a reference to the HTML template 'my-stocks.component.html'
-- All components will be imported into Ngmodule (app.module.ts)
+- All components will be imported into NgModule (app.module.ts)
 You can add a service to a project, e.g:
 - ng generate service get-stocks
 - ng g s get-stocks (same thing in shorthand)

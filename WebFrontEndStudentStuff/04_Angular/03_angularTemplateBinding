@@ -5,7 +5,7 @@ Angular Template Binding
     - one way data binding into the template
     - one way event binding out of the template
     - two-way binding (used only where unavoidable)
-In your project, 'app.component.ts' defaults ot have ONE property
+In your project, 'app.component.ts' by default has ONE property:
 - title = 'first-proj' (this is the 'state' of your component)
 {{}} is One Way Interpolation Binding (into a template):
 - You can bind ANY component property into the HTML template
@@ -15,12 +15,12 @@ In your project, 'app.component.ts' defaults ot have ONE property
     - Anything within {{}} will be evaluated
     - Try {{1+2}}, the browser shows '3'
 [] is One Way Data Binding (into a template)
-- You can use any property as a value within your HTML template
+- You can use any property as an attribute value within your HTML template
     - Inside the class in app.component.ts write:
         i = 'https://placekitten.com/120/64'
         a = 'random kitten'
     - Inside app.component.html write:
-        <img [src]=i [alt]=a [title]=a />
+        <img [src]=i [alt]=a />
     - See the image in the browser
 () is One Way Event Binding (out of a template)
 - You can easily add event handlers such as (click)
@@ -32,7 +32,8 @@ In your project, 'app.component.ts' defaults ot have ONE property
 [()] is Two Way Binding in and out of a template
 - This is less performant than one way binding
 - Often used for form field binding
-NB if you need to do anything with a form or form fields in Angular, you must add the 'FormsModule' to app.module.ts
+NB if you need to do anything with a form or form fields in Angular, 
+you must add the 'FormsModule' to app.module.ts
     - Open app.module.ts
     - Notice is it decorated with @NgModule
     - Immediately after BrowserModule put a comma
