@@ -6,6 +6,7 @@ import { MyStocksComponent } from './my-stocks/my-stocks.component';
 import { HeadComponent } from './head/head.component';
 import { FootComponent } from './foot/foot.component';
 import { DeleteMeComponent } from './delete-me/delete-me.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DeleteMeComponent } from './delete-me/delete-me.component';
     DeleteMeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
