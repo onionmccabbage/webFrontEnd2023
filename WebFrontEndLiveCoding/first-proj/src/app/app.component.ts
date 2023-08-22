@@ -12,6 +12,7 @@ export class AppComponent {
   imgUrl = 'https://placekitten.com/64/64'
   a = 'a kitten'
   t = 'picture of a kitten'
+  catName='Mildred'
   // methods of this class
   handleButton(){
     // in Angular, 'this' refers the the curent class

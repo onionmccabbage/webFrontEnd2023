@@ -10,6 +10,13 @@
   
   <!-- what if we do "src={{imgUrl}}" -->
 
+  <!-- banana in a box -->
+  <!-- [()] two-way binding -->
+  <input [(ngModel)]="catName" placeholder="cat name"/>
+  <br>
+  <p>Tha cat is called {{catName}}</p>
+
+
   <!-- () will bind an event FROM this template TO the component class -->
   <button (click)="handleButton()" >Feed the cats</button>
   <!-- ng generate component my-stocks -->
