@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,11 +7,6 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
   // properties
-  portfolio = [
-    {'ticker':'AAPL', 'qty':10, 'price':100},
-    {'ticker':'AMAZN', 'qty':20, 'price':200},
-    {'ticker':'C', 'qty':30, 'price':300},
-    {'ticker':'FB', 'qty':40, 'price':400},
-    {'ticker':'TSLA', 'qty':50, 'price':500}
-  ]
+  // @Input() lets us inject proeprties from the parent component
+  @Input() portfolio:any // its a good idea to give it a Typescript type
 }
