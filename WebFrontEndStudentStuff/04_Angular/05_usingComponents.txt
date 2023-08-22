@@ -20,6 +20,10 @@ Performance Note:
 - use *ngIf when the conditional content is rarely used
 - use [hidden]='flag' if the content needs to appear and dissapear regularly
 
+======
+TO DO: explain about Typescript and 'any'
+======
+
 Component @Input and @Output
 ----------------------------
 Components are a really good idea for any non-trivial SPA
