@@ -7,6 +7,7 @@ import { HeadComponent } from './head/head.component';
 import { FootComponent } from './foot/foot.component';
 import { DeleteMeComponent } from './delete-me/delete-me.component';
 import { FormsModule } from '@angular/forms';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     MyStocksComponent,
     HeadComponent,
     FootComponent,
-    DeleteMeComponent
+    DeleteMeComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

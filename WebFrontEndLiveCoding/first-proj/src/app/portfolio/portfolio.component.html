@@ -1,0 +1,10 @@
+<aside>
+    <!-- we can iterate over the 'porfolio' array -->
+    <ul>
+        <!-- *ngFor is a structural directive -->
+        <li *ngFor="let item of portfolio">{{item.ticker}}</li>
+    </ul>
+    <select>
+        <option *ngFor="let item of portfolio">{{item.ticker}}</option>
+    </select>
+</aside>
