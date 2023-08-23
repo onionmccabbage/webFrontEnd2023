@@ -1,1 +1,4 @@
 <p>person works!</p>
+<!-- only show the <h3> if there is a non-empty name -->
+<h3 *ngIf="name" >Hello {{name}}</h3>
+<h4 *ngIf="age">I see you are {{age}} years old</h4>
