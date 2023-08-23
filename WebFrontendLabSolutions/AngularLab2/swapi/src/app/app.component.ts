@@ -12,7 +12,7 @@ export class AppComponent {
   statusObj: StatusObj = new StatusObj('waiting...')
   // set sensible defaults for form values
   category: string = 'people'
-  num: number = 1
+  num: number = 2
 
   // data model for the <select> drop-down
   dd = [
