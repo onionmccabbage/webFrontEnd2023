@@ -1,6 +1,10 @@
 <section>
   <input type="number" min="1" [(ngModel)]="whichId"/>
   <button (click)="getOne()">Go</button>
+
+  <!-- use Angular built-in JSON pipe to show any object as plan text  -->
+  <pre>{{ photos |json }}</pre>
+
   <span>
     <img [src]="onePhoto['thumbnailUrl']" />
   </span>
