@@ -34,7 +34,8 @@ export class GetSwapiService {
         `body was: ${error.error}`);
     }
     // return an observable with a user-facing error message
-    return new Observable()
+    return throwError(
+      'Something unexpected happened');
   };
 
 }
