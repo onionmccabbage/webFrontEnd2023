@@ -27,4 +27,8 @@ export class AppComponent {
     // here we receive the custom event from a child component
     this.receivedItem = e
   }
+  // here is a method to handle a custom event from a child component
+  handleChildAgree(e:any){ // e is the custom event data
+    console.log(`Received: ${e.fn} ${e.sn}`)
+  }
 }

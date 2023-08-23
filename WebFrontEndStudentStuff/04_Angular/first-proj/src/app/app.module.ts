@@ -6,13 +6,15 @@ import { MyStocksComponent } from './my-stocks/my-stocks.component';
 import { FormsModule } from '@angular/forms';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { DetailComponent } from './detail/detail.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyStocksComponent,
     PortfolioComponent,
-    DetailComponent
+    DetailComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule, 

@@ -2,6 +2,11 @@
   <section>
       <h2>Angular</h2>
       <p>{{title}}</p>
+    <hr>
+      <!-- if you pass data you MUST use $event -->
+      <app-child (evtAgree)="handleChildAgree($event)"></app-child>
+    <hr>
+
       <img [src]=i [alt]=a [title]=t />
       <hr/>
       <button (click)="handleSomething()">Feed Cats</button>
