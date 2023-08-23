@@ -1,4 +1,12 @@
 <section>
+  <input type="number" min="1" [(ngModel)]="whichId"/>
+  <button (click)="getOne()">Go</button>
+  <span>
+    <img [src]="onePhoto['thumbnailUrl']" />
+  </span>
+
+
+
   <ul>
     <!-- iterate over all the returned data -->
     <li *ngFor="let photo of photos">

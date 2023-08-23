@@ -25,5 +25,16 @@ export class TypicodeService {
       return new Observable()
     }
   }
-
+  
+  // get just one photo
+  getOnePhoto(whichPhoto=1){
+    const onePhotoUrl = `${this.apiUrl}/${whichPhoto}`
+    console.log(onePhotoUrl)
+    try {
+      return this.http.get(onePhotoUrl)
+    }
+    catch(err){
+      return new Observable()
+    }
+  }
 }
