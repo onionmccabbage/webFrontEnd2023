@@ -39,7 +39,7 @@ const routes: Routes = [
   },
   {
     // careful - make sure the other routes work before implementing this
-    path:'**', // this wll catch any path not already resolved
+    path:'**', // this will catch any path not already resolved
     component:NotfoundComponent
   }
 ];
